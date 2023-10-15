@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+  .LeftSidebar {
+    position: fixed;
+    z-index: 999;
+    width: min(250px, 100%);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 200vh;
+    border-radius: 10px;
+  }
+
+  .greet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search {
+    margin-top: 15px;
+    margin-left: 2.5rem;
+  }
+  .mwi {
+    width: 280px;
+    gap: 2rem;
+  }
+
+  .mid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .cha {
+    display: flex;
+    justify-content: center;
+  }
+  .prod{
+    border-radius: 10px;
+  }
+  .Tcha {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cust{
+    width: 280px;
+  }
+
+  .groupover{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+  }
+
+  .menu {
+    padding-left: 10px;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+}
+
+
+
+.App {
+  background-color: rgb(240, 238, 232);
+}
+
+.responsive {
+  display: inline !important;
+  position: relative;
+  z-index: 12 !important;
+}
+@media screen and(width: 600px) {
+  #chart {
+    width: 90;
+  }
+}
+
+
+
+/* Table Styling */
+
+table {
+
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+
+
+table tr {
+  background-color: #ffffff;
+  /* border: 1px solid #ddd; */
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: start;
+}
+
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+  }
+  
+  table td {
+    display: block;
+    text-align: start;
+  }
+  
+  table td::before {
+   
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.clip-semicircle {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 0%);
+}
