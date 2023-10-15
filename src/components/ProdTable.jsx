@@ -83,7 +83,7 @@ const ProdTable = () => {
             <td data-label="Product Name" className="flex flex-row">
               <img src={p2} alt="new" className="w-14 h-10 rounded-md" />
               <span className="mx-3">
-                <p className="text-sm font-semibold">Sarphens Illustraion</p>
+                <p className="text-sm font-semibold">Sarphens Illustration</p>
                 <p className="text-slate-400 text-xs font-normal">
                   This is the best wallpaper
                 </p>
