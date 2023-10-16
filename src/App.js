@@ -22,17 +22,18 @@ function App() {
           OpenSidebar={OpenSidebar}
         />
 
-        <div className="flex flex-col gap-6">
-          <Greeting OpenSidebar={OpenSidebar} />
-          <Cards />
-          <div className="flex flex-wrap groupover">
-            <Overview />
-            <Customers />
-          </div>
+        <div className="flex flex-col">
+          <div className="flex flex-col gap-5">
+            <Greeting OpenSidebar={OpenSidebar} />
+            <Cards />
 
-          {/* <ProductTable /> */}
-          {/* <ProdTable /> */}
-          <ProdTable/>
+            <div className="flex flex-wrap justify-between groupover mx-8">
+              <Overview />
+              <Customers />
+            </div>
+
+            <ProdTable />
+          </div>
         </div>
       </main>
     </div>

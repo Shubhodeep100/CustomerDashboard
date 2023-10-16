@@ -34,10 +34,10 @@ function Overview() {
   };
 
   return (
-    <div className="flex bg-white items-center rounded-xl mx-8 cha">
+    <div className="flex bg-white rounded-xl cha">
       <div className="flex rounded-xl border">
         {/* Overview block starts */}
-        <div className="flex flex-col w-[810px] mwi cha">
+        <div className="flex flex-col md:min-w-[810px] mwi cha">
           <div className="flex justify-between items-center pt-3 pl-5 pr-3">
             <div className="flex flex-col font-bold text-md">
               Overview

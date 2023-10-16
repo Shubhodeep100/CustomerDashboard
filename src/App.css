@@ -35,6 +35,7 @@
     display: flex;
     justify-content: center;
   }
+
   .prod{
     border-radius: 10px;
   }
@@ -51,7 +52,7 @@
   .groupover{
     display: flex;
     justify-content: center;
-    gap:1rem;
+    gap: 1rem;
   }
 
   .menu {
@@ -75,13 +76,6 @@
   position: relative;
   z-index: 12 !important;
 }
-@media screen and(width: 600px) {
-  #chart {
-    width: 90;
-  }
-}
-
-
 
 /* Table Styling */
 
@@ -112,10 +106,6 @@ table td {
   table {
     border: 0;
   }
-
-  table caption {
-    font-size: 1.3em;
-  }
   
   table thead {
     border: none;
@@ -136,25 +126,20 @@ table td {
     display: block;
     text-align: start;
   }
+
+  .tdtxt{
+    text-align: end;
+  }
   
   table td::before {
-   
     content: attr(data-label);
     float: left;
     font-weight: bold;
   }
 
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
+  .pic{
+    margin-left: 14px;
   }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
-.clip-semicircle {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 0%);
+
 }

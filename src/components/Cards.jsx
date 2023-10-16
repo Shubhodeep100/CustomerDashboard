@@ -7,7 +7,7 @@ import bag from '../Assets/shop.png'
 
 const Cards = () => {
   return (
-    <div className="flex flex-wrap justify-between gap-9 mx-8 py-2 mid">
+    <div className="flex flex-wrap justify-between mx-8 mid">
       {/* Card One - Earning */}
       <div className="flex flex-row bg-white items-center rounded-lg pr-5">
         <div className="py-4 px-2">
@@ -74,7 +74,6 @@ const Cards = () => {
           </span>
         </div>
       </div>
-
       {/* Card 4*/}
       <div className="flex flex-row bg-white items-center rounded-lg pr-6">
         <div className="py-4 px-2">

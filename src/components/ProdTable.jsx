@@ -57,48 +57,48 @@ const ProdTable = () => {
         <tbody>
           <tr className="border-t">
             <td data-label="Product Name" className="flex flex-row">
-              <img src={p1} alt="new" className="w-14 h-10 rounded-md" />
-              <span className="mx-3">
+              <img src={p1} alt="new" className="w-14 h-10 rounded-md pic" />
+              <span className="mx-3 tdtxt">
                 <p className="text-sm font-semibold">Abstarct 3D</p>
                 <p className="text-slate-400 text-xs font-normal">
                   This is the best wallpaper
                 </p>
               </span>
             </td>
-            <td data-label="Stock" className="text-sm text-center">
+            <td data-label="Stock" className="text-sm text-center tdtxt">
               32 in Stock
             </td>
             <td
               data-label="Price"
-              className="text-sm font-semibold text-center"
+              className="text-sm font-semibold text-center tdtxt"
             >
               $45.99
             </td>
-            <td data-label="Total Sales" className="text-center">
+            <td data-label="Total Sales" className="text-center tdtxt">
               20
             </td>
           </tr>
 
           <tr className="border-t">
-            <td data-label="Product Name" className="flex flex-row">
-              <img src={p2} alt="new" className="w-14 h-10 rounded-md" />
-              <span className="mx-3">
+            <td data-label="Product Name" className="flex flex-row ">
+              <img src={p2} alt="new" className="w-14 h-10 rounded-md pic" />
+              <span className="mx-3 tdtxt">
                 <p className="text-sm font-semibold">Sarphens Illustration</p>
                 <p className="text-slate-400 text-xs font-normal">
                   This is the best wallpaper
                 </p>
               </span>
             </td>
-            <td data-label="Stock" className="text-sm text-center">
+            <td data-label="Stock" className="text-sm text-center tdtxt">
               32 in Stock
             </td>
             <td
               data-label="Price"
-              className="text-sm font-semibold text-center"
+              className="text-sm font-semibold text-center tdtxt"
             >
               $45.99
             </td>
-            <td data-label="Total Sales" className="text-center">
+            <td data-label="Total Sales" className="text-center tdtxt">
               20
             </td>
           </tr>
