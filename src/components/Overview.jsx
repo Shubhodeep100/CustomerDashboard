@@ -14,7 +14,7 @@ function Overview() {
           { x: "May", y: 85 },
           { x: "Jun", y: 38 },
           { x: "Jul", y: 78 },
-          { x: "Aug", y: 100, fillColor: "#3616E4", strokeColor: "#C23829"},
+          { x: "Aug", y: 100, fillColor: "#3616E4", strokeColor: "#C23829" },
           { x: "Sep", y: 94 },
           { x: "Oct", y: 78 },
           { x: "Nov", y: 70 },

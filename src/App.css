@@ -33,10 +33,11 @@
 
   .cha {
     display: flex;
-    justify-content: center;
+    /* justify-content: top; */
+    align-items: start;
   }
 
-  .prod{
+  .prod {
     border-radius: 10px;
   }
   .Tcha {
@@ -45,11 +46,11 @@
     margin-top: 10px;
   }
 
-  .cust{
+  .cust {
     width: 280px;
   }
 
-  .groupover{
+  .groupover {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -65,8 +66,6 @@
 
 }
 
-
-
 .App {
   background-color: rgb(240, 238, 232);
 }
@@ -80,15 +79,12 @@
 /* Table Styling */
 
 table {
-
   border-collapse: collapse;
   margin: 0;
   padding: 0;
   width: 100%;
   table-layout: fixed;
 }
-
-
 
 table tr {
   background-color: #ffffff;
@@ -101,12 +97,11 @@ table td {
   text-align: start;
 }
 
-
 @media screen and (max-width: 600px) {
   table {
     border: 0;
   }
-  
+
   table thead {
     border: none;
     clip: rect(0 0 0 0);
@@ -117,33 +112,30 @@ table td {
     position: absolute;
     width: 1px;
   }
-  
+
   table tr {
     display: block;
   }
-  
+
   table td {
     display: block;
     text-align: start;
   }
 
-  .tdtxt{
+  .tdtxt {
     text-align: end;
   }
-  
+
   table td::before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
   }
 
-  .pic{
+  .pic {
     margin-left: 14px;
   }
-
-
 }
-
 
 /* circle CSS */
 
@@ -162,32 +154,27 @@ table td {
   height: 179px;
   border: 25px solid #dcd9de; /* Outer ring */
   border-radius: 50%; /* Makes it a circle */
+  margin-top: 25px;
 }
-
 
 .outer {
   width: 200px;
   height: 200px;
-  background: conic-gradient(
-    rgb(99, 8, 211) 65%,
-    rgba(207, 206, 213, 0) 0%
-  );
+  background: conic-gradient(rgb(99, 8, 211) 65%, rgba(207, 206, 213, 0) 0%);
 }
 
 .inner {
   width: 120px;
   height: 120px;
   background: #ffffff;
- 
 }
-
 
 .circle {
   width: 205px;
   height: 205px;
   background: conic-gradient(
     transparent 0deg,
-    #f418a4 0 0.20turn,
+    #f418a4 0 0.2turn,
     transparent 0.12turn
   );
   border-radius: 50%;
@@ -209,12 +196,12 @@ table td {
   font-family: sans-serif;
   margin: 0;
 }
-.sp{
+.sp {
   font-family: sans-serif;
   font-size: 10px;
   margin: -10px;
 }
-.sc{
+.sc {
   font-family: sans-serif;
   font-size: 10px;
   margin: 1.8px;

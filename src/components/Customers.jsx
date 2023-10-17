@@ -1,6 +1,4 @@
 import React from "react";
-// import chart from "../Assets/chart.png";
-
 const Customers = () => {
   return (
     <div className="flex flex-col w-[325px] h-72 bg-white rounded-lg cha cust relative">
@@ -10,27 +8,26 @@ const Customers = () => {
           Customers that buy products
         </span>
       </div>
-
-      <div className="concentric-ring s">
-        <div className="outer s"></div>
-        <div className="inner s"></div>
-        <div className="hello s"></div>
-        <div className="circle s">
-          <div className="inner2 s">
-            <p className="flex justify-center items-center font-serif font-extrabold number">
-              65%
-            </p>
-            <span className="flex justify-center text-center tracking-tighter sp">
-              Total New
-            </span>
-            <span
-              className="flex justify-center text-center tracking-tighter sc"
-            >
-              Customers
-            </span>
+      {/* <div className="relative"> */}
+        <div className="concentric-ring s">
+          <div className="outer s"></div>
+          <div className="inner s"></div>
+          <div className="hello s"></div>
+          <div className="circle s">
+            <div className="inner2 s">
+              <p className="flex justify-center items-center font-serif font-extrabold number">
+                65%
+              </p>
+              <span className="flex justify-center text-center tracking-tighter sp">
+                Total New
+              </span>
+              <span className="flex justify-center text-center tracking-tighter sc">
+                Customers
+              </span>
+            </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
